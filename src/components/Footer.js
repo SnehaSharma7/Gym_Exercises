@@ -1,6 +1,6 @@
 import React from "react";
 import { Box, Stack, Typography } from "@mui/material";
-import Logo from "../assets/images/Logo-1.png";
+import Logo from "../assets/images/logo2.png";
 
 const Footer = () => (
   <Box mt="80px" bgcolor="#FFF3F4">
@@ -11,7 +11,7 @@ const Footer = () => (
       px="40px"
       pt="24px"
     >
-      <img src={Logo} alt="logo" style={{ width: "200px", height: "41px" }} />
+      <img src={Logo} alt="logo" style={{ width: "100px", height: "80px" }} />
     </Stack>
     <Typography
       variant="h5"
@@ -20,7 +20,7 @@ const Footer = () => (
       textAlign="center"
       pb="40px"
     >
-      Dummy Project for Practice
+      Developed by Sneha Sharma!
     </Typography>
   </Box>
 );
